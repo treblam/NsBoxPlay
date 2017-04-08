@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7DD038DA1E98538400E5B317 /* CustomTableRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD038D91E98538400E5B317 /* CustomTableRowView.swift */; };
+		7DD10C711E87D37E00F40C9F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD10C701E87D37E00F40C9F /* AppDelegate.swift */; };
+		7DD10C731E87D37E00F40C9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DD10C721E87D37E00F40C9F /* Assets.xcassets */; };
+		7DD10C761E87D37E00F40C9F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DD10C741E87D37E00F40C9F /* MainMenu.xib */; };
+		7DD10C811E87D37E00F40C9F /* NsBoxPlayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD10C801E87D37E00F40C9F /* NsBoxPlayTests.swift */; };
+		7DD10C8C1E87D37E00F40C9F /* NsBoxPlayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD10C8B1E87D37E00F40C9F /* NsBoxPlayUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7DD10C7D1E87D37E00F40C9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7DD10C651E87D37E00F40C9F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7DD10C6C1E87D37E00F40C9F;
+			remoteInfo = NsBoxPlay;
+		};
+		7DD10C881E87D37E00F40C9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7DD10C651E87D37E00F40C9F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7DD10C6C1E87D37E00F40C9F;
+			remoteInfo = NsBoxPlay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7DD038D91E98538400E5B317 /* CustomTableRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableRowView.swift; sourceTree = "<group>"; };
+		7DD10C6D1E87D37E00F40C9F /* NsBoxPlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NsBoxPlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DD10C701E87D37E00F40C9F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7DD10C721E87D37E00F40C9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7DD10C751E87D37E00F40C9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		7DD10C771E87D37E00F40C9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DD10C7C1E87D37E00F40C9F /* NsBoxPlayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NsBoxPlayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DD10C801E87D37E00F40C9F /* NsBoxPlayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NsBoxPlayTests.swift; sourceTree = "<group>"; };
+		7DD10C821E87D37E00F40C9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DD10C871E87D37E00F40C9F /* NsBoxPlayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NsBoxPlayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DD10C8B1E87D37E00F40C9F /* NsBoxPlayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NsBoxPlayUITests.swift; sourceTree = "<group>"; };
+		7DD10C8D1E87D37E00F40C9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7DD10C6A1E87D37E00F40C9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DD10C791E87D37E00F40C9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DD10C841E87D37E00F40C9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7DD10C641E87D37E00F40C9F = {
+			isa = PBXGroup;
+			children = (
+				7DD10C6F1E87D37E00F40C9F /* NsBoxPlay */,
+				7DD10C7F1E87D37E00F40C9F /* NsBoxPlayTests */,
+				7DD10C8A1E87D37E00F40C9F /* NsBoxPlayUITests */,
+				7DD10C6E1E87D37E00F40C9F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7DD10C6E1E87D37E00F40C9F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7DD10C6D1E87D37E00F40C9F /* NsBoxPlay.app */,
+				7DD10C7C1E87D37E00F40C9F /* NsBoxPlayTests.xctest */,
+				7DD10C871E87D37E00F40C9F /* NsBoxPlayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DD10C6F1E87D37E00F40C9F /* NsBoxPlay */ = {
+			isa = PBXGroup;
+			children = (
+				7DD10C701E87D37E00F40C9F /* AppDelegate.swift */,
+				7DD10C721E87D37E00F40C9F /* Assets.xcassets */,
+				7DD10C741E87D37E00F40C9F /* MainMenu.xib */,
+				7DD10C771E87D37E00F40C9F /* Info.plist */,
+				7DD038D91E98538400E5B317 /* CustomTableRowView.swift */,
+			);
+			path = NsBoxPlay;
+			sourceTree = "<group>";
+		};
+		7DD10C7F1E87D37E00F40C9F /* NsBoxPlayTests */ = {
+			isa = PBXGroup;
+			children = (
+				7DD10C801E87D37E00F40C9F /* NsBoxPlayTests.swift */,
+				7DD10C821E87D37E00F40C9F /* Info.plist */,
+			);
+			path = NsBoxPlayTests;
+			sourceTree = "<group>";
+		};
+		7DD10C8A1E87D37E00F40C9F /* NsBoxPlayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7DD10C8B1E87D37E00F40C9F /* NsBoxPlayUITests.swift */,
+				7DD10C8D1E87D37E00F40C9F /* Info.plist */,
+			);
+			path = NsBoxPlayUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7DD10C6C1E87D37E00F40C9F /* NsBoxPlay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DD10C901E87D37E00F40C9F /* Build configuration list for PBXNativeTarget "NsBoxPlay" */;
+			buildPhases = (
+				7DD10C691E87D37E00F40C9F /* Sources */,
+				7DD10C6A1E87D37E00F40C9F /* Frameworks */,
+				7DD10C6B1E87D37E00F40C9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NsBoxPlay;
+			productName = NsBoxPlay;
+			productReference = 7DD10C6D1E87D37E00F40C9F /* NsBoxPlay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7DD10C7B1E87D37E00F40C9F /* NsBoxPlayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DD10C931E87D37E00F40C9F /* Build configuration list for PBXNativeTarget "NsBoxPlayTests" */;
+			buildPhases = (
+				7DD10C781E87D37E00F40C9F /* Sources */,
+				7DD10C791E87D37E00F40C9F /* Frameworks */,
+				7DD10C7A1E87D37E00F40C9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7DD10C7E1E87D37E00F40C9F /* PBXTargetDependency */,
+			);
+			name = NsBoxPlayTests;
+			productName = NsBoxPlayTests;
+			productReference = 7DD10C7C1E87D37E00F40C9F /* NsBoxPlayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7DD10C861E87D37E00F40C9F /* NsBoxPlayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DD10C961E87D37E00F40C9F /* Build configuration list for PBXNativeTarget "NsBoxPlayUITests" */;
+			buildPhases = (
+				7DD10C831E87D37E00F40C9F /* Sources */,
+				7DD10C841E87D37E00F40C9F /* Frameworks */,
+				7DD10C851E87D37E00F40C9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7DD10C891E87D37E00F40C9F /* PBXTargetDependency */,
+			);
+			name = NsBoxPlayUITests;
+			productName = NsBoxPlayUITests;
+			productReference = 7DD10C871E87D37E00F40C9F /* NsBoxPlayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7DD10C651E87D37E00F40C9F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Jamie;
+				TargetAttributes = {
+					7DD10C6C1E87D37E00F40C9F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					7DD10C7B1E87D37E00F40C9F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7DD10C6C1E87D37E00F40C9F;
+					};
+					7DD10C861E87D37E00F40C9F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7DD10C6C1E87D37E00F40C9F;
+					};
+				};
+			};
+			buildConfigurationList = 7DD10C681E87D37E00F40C9F /* Build configuration list for PBXProject "NsBoxPlay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7DD10C641E87D37E00F40C9F;
+			productRefGroup = 7DD10C6E1E87D37E00F40C9F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7DD10C6C1E87D37E00F40C9F /* NsBoxPlay */,
+				7DD10C7B1E87D37E00F40C9F /* NsBoxPlayTests */,
+				7DD10C861E87D37E00F40C9F /* NsBoxPlayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7DD10C6B1E87D37E00F40C9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DD10C731E87D37E00F40C9F /* Assets.xcassets in Resources */,
+				7DD10C761E87D37E00F40C9F /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DD10C7A1E87D37E00F40C9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DD10C851E87D37E00F40C9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7DD10C691E87D37E00F40C9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DD10C711E87D37E00F40C9F /* AppDelegate.swift in Sources */,
+				7DD038DA1E98538400E5B317 /* CustomTableRowView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DD10C781E87D37E00F40C9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DD10C811E87D37E00F40C9F /* NsBoxPlayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DD10C831E87D37E00F40C9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DD10C8C1E87D37E00F40C9F /* NsBoxPlayUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7DD10C7E1E87D37E00F40C9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7DD10C6C1E87D37E00F40C9F /* NsBoxPlay */;
+			targetProxy = 7DD10C7D1E87D37E00F40C9F /* PBXContainerItemProxy */;
+		};
+		7DD10C891E87D37E00F40C9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7DD10C6C1E87D37E00F40C9F /* NsBoxPlay */;
+			targetProxy = 7DD10C881E87D37E00F40C9F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7DD10C741E87D37E00F40C9F /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DD10C751E87D37E00F40C9F /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7DD10C8E1E87D37E00F40C9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7DD10C8F1E87D37E00F40C9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		7DD10C911E87D37E00F40C9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NsBoxPlay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.jamiexie.NsBoxPlay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7DD10C921E87D37E00F40C9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NsBoxPlay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.jamiexie.NsBoxPlay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		7DD10C941E87D37E00F40C9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NsBoxPlayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.jamiexie.NsBoxPlayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NsBoxPlay.app/Contents/MacOS/NsBoxPlay";
+			};
+			name = Debug;
+		};
+		7DD10C951E87D37E00F40C9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NsBoxPlayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.jamiexie.NsBoxPlayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NsBoxPlay.app/Contents/MacOS/NsBoxPlay";
+			};
+			name = Release;
+		};
+		7DD10C971E87D37E00F40C9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NsBoxPlayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.jamiexie.NsBoxPlayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = NsBoxPlay;
+			};
+			name = Debug;
+		};
+		7DD10C981E87D37E00F40C9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NsBoxPlayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.jamiexie.NsBoxPlayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = NsBoxPlay;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7DD10C681E87D37E00F40C9F /* Build configuration list for PBXProject "NsBoxPlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DD10C8E1E87D37E00F40C9F /* Debug */,
+				7DD10C8F1E87D37E00F40C9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DD10C901E87D37E00F40C9F /* Build configuration list for PBXNativeTarget "NsBoxPlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DD10C911E87D37E00F40C9F /* Debug */,
+				7DD10C921E87D37E00F40C9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DD10C931E87D37E00F40C9F /* Build configuration list for PBXNativeTarget "NsBoxPlayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DD10C941E87D37E00F40C9F /* Debug */,
+				7DD10C951E87D37E00F40C9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DD10C961E87D37E00F40C9F /* Build configuration list for PBXNativeTarget "NsBoxPlayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DD10C971E87D37E00F40C9F /* Debug */,
+				7DD10C981E87D37E00F40C9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7DD10C651E87D37E00F40C9F /* Project object */;
+}
